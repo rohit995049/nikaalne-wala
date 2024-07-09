@@ -47,7 +47,7 @@ print(listen.__file__)
 
 
 # ========== Converter =============#
-@bot.on_message(filters.command(["taiyaric"]))
+@bot.on_message(filters.command(["rohit"]))
 async def gaiyrab(bot: Client, message: Message):
     message.from_user.id if message.from_user is not None else None
     if not one(message.from_user.id):
